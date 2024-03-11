@@ -1,3 +1,22 @@
-body{
-    background-color: rgb(223, 165, 182);
+*{
+    margin: 0px;
+    padding: 0px;
 }
+
+.cabeçalho{
+    background-color: #2f356d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+    .cabeçalho-imagem{
+width:  50px
+    }
+
+    .cabeçalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        font-size: 24px;
+    }
